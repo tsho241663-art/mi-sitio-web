@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Proyecto IMC - Dietas y Metas Personales">
+  <meta name="author" content="Hector Said Torres Santiago">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <title>Dietas</title>
+  <link rel="stylesheet" href="assets/estilos.css">
+  <script defer src="assets/script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Dietas Recomendadas</h1>
+    <nav>
+      <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="imc.html">Calculadora IMC</a></li>
+        <li><a href="dietas.html">Dietas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+   <main>
+      <section class="container my-4">
+  <h2 class="text-center mb-4">Dietas Recomendadass!</h2>
+
+  <div class="row g-4">
+    <!-- Dieta 1 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Dieta Balanceada</h5>
+          <p class="card-text">
+            Incluye frutas, verduras, proteínas y agua.
+            <br><strong>Beneficios:</strong> Mejora la digestión, aporta energía y mantiene un peso saludable.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dieta 2 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Dieta Baja en Carbohidratos</h5>
+          <p class="card-text">
+            Evita azúcares, prioriza proteínas (carnes, pollo, pescado, huevos).
+            <br><strong>Beneficios:</strong> Controla el azúcar en sangre y favorece la pérdida de grasa corporal.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dieta 3 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Dieta Mediterránea</h5>
+          <p class="card-text">
+            Basada en pescados, aceite de oliva, ensaladas y frutos secos.
+            <br><strong>Beneficios:</strong> Protege el corazón y mejora la circulación.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container my-5">
+  <h2 class="text-center mb-3">Crea tu propia dieta con tus Alimentos Preferidos</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="input-group mb-3">
+        <input type="text" id="nuevoAlimento" class="form-control" placeholder="Ej. manzana, pollo a la plancha...">
+        <button class="btn btn-success" onclick="agregarAlimento()">Agregar</button>
+      </div>
+      <ul id="listaDieta" class="list-group"></ul>
+      <p class="mt-2 text-muted"><small>*Haz clic sobre un alimento para eliminarlo de la lista.</small></p>
+    </div>
+  </div>
+</section>
+    </main>
+    <footer>
+      <p>@ 2025 Mi Página Web | Todos los derechos reservados</p>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>

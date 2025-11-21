@@ -1,0 +1,206 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: hsl(180, 56%, 52%);
+  color: hsl(0, 0%, 0%);
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/*MEnu de navgeacion*/
+nav{
+    background: #333;  /*FOndo oscuro*/
+    padding: 0.5rem;    
+}
+
+nav a{
+    color: white;   /*Crlor d elos enlaces*/
+    text-decoration: none;  /*Quita el subrayado*/
+    margin: 0 20px;   /*Espaciado entre enlaces*/
+}
+
+nav a:hover{
+    text-decoration: underline; /*Subrayado al pasar el mouse*/
+}
+
+main {
+  padding: 20px;
+}
+
+.imagen-hover img {
+  width: 400px;
+  transition: 0.5s;
+}
+
+footer {
+  text-align: center;
+  background: #f1f1f1;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/*Pie de Pagina*/
+footer{
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 20px;
+}
+
+#mensajeReto {
+  font-weight: bold;
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+label{
+  display: block; /*Hace que la etiqueta ocupe toda la linea*/
+  margin-top: 10px;
+}
+
+input, textarea, select, button{
+  width: 98%; /*Ocupan todo el ancho*/
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario-bienvenida {
+  max-width: 400px;
+  margin: 2rem auto;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+}
+
+.formulario-bienvenida h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #3bcea9;
+}
+
+.formulario-bienvenida form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-bienvenida label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.formulario-bienvenida input {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario-bienvenida button {
+  margin-top: 15px;
+  background-color: #57e6bb;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.formulario-bienvenida button:hover {
+  background-color: #63ebbd;
+}
+
+#mensajeBienvenida {
+  margin-top: 20px;
+  text-align: center;
+  background: #e8f5e9;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  display: none;
+}
+
+.crear-dieta {
+  margin-top: 2rem;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 500px;
+}
+
+.crear-dieta h2 {
+  color: #4bd1ca;
+}
+
+.crear-dieta input {
+  padding: 8px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.crear-dieta button {
+  padding: 8px 15px;
+  background-color: #2ae0b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.crear-dieta button:hover {
+  background-color: #71ddb0;
+}
+
+#listaDieta {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+#listaDieta li {
+  background: #e8f5e9;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#listaDieta li:hover {
+  background: #c8e6c9;
+}
+
+
+
+
